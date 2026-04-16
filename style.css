@@ -266,6 +266,9 @@ ul {
 	font-weight: 700;
 	margin-bottom: 16px;
 	color: var(--theme-color);
+	/*ここを追加した*/
+	border-bottom: 2px solid #e74c3c;
+	/*ここまで*/
 }
 
 .access-list {
@@ -306,7 +309,7 @@ ul {
 	margin-top: 8px;
 }
 
-/*ここから変更*/
+/*高田　ここから変更*/
 .access-venue{
 	font-weight: bold;
 }
@@ -314,6 +317,22 @@ ul {
 .access-time{
 	margin-top: 40px;
 }
+/*ここから追加*/
+.access-time p{
+	margin-bottom: 20px;
+}
+
+.station{
+	font-weight: bold;
+}
+
+.route{
+	display: block;
+	padding-left: 1rem;
+	font-family: "ヒラギノ角ゴ ProN";
+}
+/*ここまで追加した*/
+
 /*ここまで*/
 
 /* =============== フッター =============== */
